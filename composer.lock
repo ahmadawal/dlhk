@@ -2312,6 +2312,11 @@
                 "pseudorandom",
                 "random"
             ],
+            "support": {
+                "email": "info@paragonie.com",
+                "issues": "https://github.com/paragonie/random_compat/issues",
+                "source": "https://github.com/paragonie/random_compat"
+            },
             "time": "2018-07-02T15:55:56+00:00"
         },
         {
@@ -2541,16 +2546,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.23",
+            "version": "2.0.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "c78eb5058d5bb1a183133c36d4ba5b6675dfa099"
+                "reference": "233a920cb38636a43b18d428f9a8db1f0a1a08f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/c78eb5058d5bb1a183133c36d4ba5b6675dfa099",
-                "reference": "c78eb5058d5bb1a183133c36d4ba5b6675dfa099",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/233a920cb38636a43b18d428f9a8db1f0a1a08f4",
+                "reference": "233a920cb38636a43b18d428f9a8db1f0a1a08f4",
                 "shasum": ""
             },
             "require": {
@@ -2558,8 +2563,7 @@
             },
             "require-dev": {
                 "phing/phing": "~2.7",
-                "phpunit/phpunit": "^4.8.35|^5.7|^6.0",
-                "sami/sami": "~2.0",
+                "phpunit/phpunit": "^4.8.35|^5.7|^6.0|^9.4",
                 "squizlabs/php_codesniffer": "~2.0"
             },
             "suggest": {
@@ -2629,7 +2633,25 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2019-09-17T03:41:22+00:00"
+            "support": {
+                "issues": "https://github.com/phpseclib/phpseclib/issues",
+                "source": "https://github.com/phpseclib/phpseclib/tree/2.0.31"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/terrafrost",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/phpseclib",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/phpseclib/phpseclib",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-04-06T13:56:45+00:00"
         },
         {
             "name": "psr/container",
@@ -5338,59 +5360,6 @@
             "time": "2019-03-07T21:35:13+00:00"
         },
         {
-            "name": "pallares/laravel-nuxt",
-            "version": "1.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/skyrpex/laravel-nuxt.git",
-                "reference": "9df92717f30b519d42b8da83b5b801ab7f09ebf2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/skyrpex/laravel-nuxt/zipball/9df92717f30b519d42b8da83b5b801ab7f09ebf2",
-                "reference": "9df92717f30b519d42b8da83b5b801ab7f09ebf2",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/framework": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0",
-                "php": ">=7.0.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Pallares\\LaravelNuxt\\LaravelNuxtServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Pallares\\LaravelNuxt\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Cristian Pallarés",
-                    "email": "cristian@pallares.io",
-                    "homepage": "https://pallares.io",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Build a SPA with Laravel and Nuxt",
-            "homepage": "https://github.com/skyrpex/laravel-nuxt",
-            "keywords": [
-                "SPA",
-                "laravel",
-                "nuxt",
-                "vue"
-            ],
-            "time": "2019-09-05T14:27:19+00:00"
-        },
-        {
             "name": "phar-io/manifest",
             "version": "1.0.3",
             "source": {
@@ -6821,5 +6790,6 @@
     "platform": {
         "php": "^7.2"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }
